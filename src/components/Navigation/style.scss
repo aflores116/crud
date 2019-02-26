@@ -1,0 +1,10 @@
+$color-primary:dodgerblue;
+$color-base:white;
+
+
+.app-navigation{
+    background:$color-primary;
+    color:$color-base;
+    display:flex;
+    justify-content: center;
+}
