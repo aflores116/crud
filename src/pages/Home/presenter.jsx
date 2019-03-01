@@ -8,17 +8,17 @@ export default class Home extends Component{
     }
     render(){
         return(
-            <div class="list">
-                <div ClassName="todo-list">
+            <div className="list">
+                <div className="todo-list">
                 <h1>To do list:</h1>
-                    <div ClassName="todo-list__to-do">
+                    <div className="todo-list__to-do">
                     <ul>
                         <li>Create a to do list</li>
                         <li>Eat</li>
                         <li>Practice react</li>
                     </ul>
                     </div>
-                    <div ClassName="todo-list__finished">
+                    <div className="todo-list__finished">
                         <p>Complete List Coming soon</p>
                     </div>
                 </div>
